@@ -181,13 +181,14 @@ body {
 }
 
 .FAQ {
-    position: flex;
     justify-content: center;
     text-align: center;
-    align-items: center;
+    /* align-items: center; */
     padding: 3rem;
     border-bottom: 8px solid #222;
     height: 80vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .FAQ h1 {
@@ -196,10 +197,13 @@ body {
 }
 
 .FAQ .faq-list {
-    position: absolute;
     padding: 3rem;
-    width: 100%;
-    left: 25%;
+    /* width: 100%; */
+    /* left: 25%; */
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .FAQ .faq-list .items {
@@ -214,7 +218,7 @@ body {
 }
 
 .FAQ .membership {
-    position: relative;
+    /*position: relative;*/
     top: 27rem;
 }
 
